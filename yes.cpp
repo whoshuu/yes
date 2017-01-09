@@ -1,13 +1,14 @@
-#include <cstdio>
+#include <iostream>
+
+using namespace std;
 
 int main(int argc, char** argv) {
     while (true) {
         if (argc > 1) {
-            printf("%s\n", argv[1]);
+            cout << argv[1] << endl;
         } else {
-            printf("y\n");
+            cout << "y" << endl;
         }
     }
-
     return 0;
 }
