@@ -9,7 +9,7 @@ import (
 
 func main() {
   signal.Ignore(syscall.SIGPIPE)
-  for true {
+  for {
     if len(os.Args) > 1 {
       var test = os.Args[1]
       fmt.Println(test)
